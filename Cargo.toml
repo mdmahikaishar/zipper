@@ -1,0 +1,14 @@
+[package]
+name = "zipper"
+version = "0.1.0"
+description = "Data compression with rust."
+authors = ["mdmahikaishar <mahikaishar@gmail.ocm>"]
+edition = "2021"
+repository = "https://github.com/mdmahikaishar/zipper"
+keywords = ["zip", "compression", "archive", "data"]
+license = "MIT"
+readme = "README.md"
+include = ["src/**", "README.md"]
+
+[dependencies]
+zip = "0.6.6"
